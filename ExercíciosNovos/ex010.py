@@ -9,3 +9,6 @@
     ou então o empréstimo será negado
 '''
 
+casa = float(input('Digite o valor da casa: '))
+salario = float(input("Digite o valor do seu salário: "))
+tempo = int(input('Digite em quantos anos você deseja pagar a casa: '))

@@ -5,3 +5,5 @@
         Quantas letras ao todo sem considerar espaços
         Quantas letras tem o primeiro nome:
 '''
+
+nome = str(input('Digite seu nome completo: '))
