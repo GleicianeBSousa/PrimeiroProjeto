@@ -11,3 +11,17 @@
         o novo salário, após o aumento.
 
 '''
+
+salario = float(input('Digite o valor do salário do colaborador: '))
+
+if salario <= 280:
+    print(f'O salário de R${salario} teve aumento de 15% e passou para R${salario+salario*0.15}.')
+
+elif salario >280 and salario <=700:
+    print(f'O salário de R${salario} teve aumento de 15% e passou para R${salario+salario*0.2}.')
+
+elif salario >700 and salario <=1500:
+    print(f'O salário de R${salario} teve aumento de 10% e passou para R${salario+salario*0.1}.')
+
+elif salario >1500:
+    print(f'O salário de R${salario} teve aumento de 5% e passou para R${salario+salario*0.05}.')
