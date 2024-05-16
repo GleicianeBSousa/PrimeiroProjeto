@@ -10,7 +10,7 @@
 #print(textoTam)
 
 nome = str(input('Digite seu nome completo: '))
-qtd = len(nome) - nome.count(' ') #forma de saber a qtd de letras dentro de uma string
+qtd = len(nome) - nome.count(' ') #forma de saber a qtd de itens dentro de uma string
 primeiro_nome = nome.split() #usa .split() para separar um grupo dentro da string
 print(nome.upper()) # .upper() é usado para passar tudo para maiúsculo
 print(nome.lower()) # .lower() é usado para passar tudo para minúsculo

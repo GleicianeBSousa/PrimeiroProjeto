@@ -4,4 +4,5 @@
 
 hora = float(input('Quanto você ganha por hora? '))
 hrtrab = float(input('Quantas horas trabalhou no mês: '))
-
+total = hora*hrtrab
+print(f'Seu salário pelas suas horas e dias trabalhados é  R${total}')
