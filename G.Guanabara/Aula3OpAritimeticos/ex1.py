@@ -1,0 +1,9 @@
+#Potencia
+print(pow(4,3))
+print(4**3)
+#Raiz
+print(81**(1/2))
+print(81**(1/3))
+#concatenar 
+print('oi'*5)
+print('='*20)

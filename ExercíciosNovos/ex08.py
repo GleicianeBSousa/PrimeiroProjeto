@@ -16,3 +16,4 @@ print(nome.upper()) # .upper() é usado para passar tudo para maiúsculo
 print(nome.lower()) # .lower() é usado para passar tudo para minúsculo
 print(f'Seu nome tem o total de {qtd} letras')
 print(f'Seu primeiro nome tem {len(primeiro_nome[0])}')
+
